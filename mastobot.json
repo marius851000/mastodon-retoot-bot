@@ -1,0 +1,11 @@
+{
+    "bot_id": "testbot",
+    "bot_secret_file": "testbot.secret",
+    "api_base_url": "https://mastodon.mariusdavid.fr",
+    "mastodon_user_name": "testbot@mariusdavid.fr",
+    "mastodon_local_user_name": "@testbot",
+    "mastodon_possible_server_part": [ "mariusdavid.fr", "mastodon.mariusdavid.fr" ],
+    "mastodon_password_file": "./mastodon_password.txt",
+    "poll_interval": 5,
+    "db_path": "./mastodon.db"
+}
