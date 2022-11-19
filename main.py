@@ -47,7 +47,7 @@ class MastoBot:
             Mastodon.create_app(
                 BOT_ID,
                 api_base_url = API_BASE_URL,
-                to_file = BOT_ID + '.secret'
+                to_file = BOT_SECRET_FILE
             )
 
         self.mastodon = Mastodon(
